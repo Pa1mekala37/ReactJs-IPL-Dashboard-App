@@ -1,4 +1,10 @@
-In this project, let's build an **IPL Dashboard App** by applying the concepts we have learned till now.
+Implemented IPL Dashboard app where users can list of ipl team, individual team details and respective team matches info
+
+- Implemented UI such as home dashboard, individual team info routes by using React Router library components like Route, Switch, Link, props, lists & keys.
+- Fetched teams list from server asynchronously using fetch GET HTTP API call & individual team details, matches info by sending team id as path parameter.
+- Implemented 404 not found page for invalid paths by keeping 404 Route as last route in the Switch component with * path.
+
+Technologies used: React JS, Routing, REST API Calls, CSS, Bootstrap
 
 ### Refer to the image below:
 
@@ -268,10 +274,3 @@ Use these files to complete the implementation:
 - Bree Serif
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
